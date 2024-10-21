@@ -57,11 +57,11 @@ Here’s an example of what the `input_paths.txt` file should look like:
 
 ```txt
 SAMPLE_NAME=HD701_s1_S5
-INPUT_DIR=/media/afroz/NEW_VOLUME1/GATK_practice/runs/HD701_s1/hg38
+INPUT_DIR=/media/afroz/NEW_VOLUME1/GATK_practice/runs/HD701_s1/hg37
 OUTPUT_DIR=/media/afroz/NEW_VOLUME1/GATK_practice/outputs
-REF_GENOME_DIR=/media/afroz/NEW_VOLUME1/GATK_practice/ref/genome_38
-INDEX_PREFIX=/media/afroz/NEW_VOLUME1/GATK_practice/ref/genome/hg38_index
-KNOWN_SITES_DIR=/media/afroz/NEW_VOLUME1/GATK_practice/ref/known_sites_38
+REF_GENOME_DIR=/media/afroz/NEW_VOLUME1/GATK_practice/ref/genome_37
+INDEX_PREFIX=/media/afroz/NEW_VOLUME1/GATK_practice/ref/genome/hg37_index
+KNOWN_SITES_DIR=/media/afroz/NEW_VOLUME1/GATK_practice/ref/known_sites_37
 ```
 
 You will need to modify this file according to your specific input files, reference genome, and known sites directories.
